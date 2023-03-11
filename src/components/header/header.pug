@@ -1,0 +1,21 @@
+header.header
+  .header__logo-wrapper
+    img.header__logo(src=require("../../images/logo.svg"))
+  nav.header__menu-wrapper
+    input.header__burger-menu-checkbox(type="checkbox")
+    //- burger menu
+    .header__burger-menu
+      span.header__burger-menu-line
+      span.header__burger-menu-line
+      span.header__burger-menu-line
+    //- default menu
+    ul.header__menu
+      li.header__menu-item 
+        |
+        a.header__menu-link(href="#") полиграфия
+      li.header__menu-item 
+        |
+        a.header__menu-link(href="#") фирменный стиль
+      li.header__menu-item 
+        |
+        a.header__menu-link(href="#") иллюстрации

@@ -1,0 +1,8 @@
+@import "~normalize/normalize.css";
+@import './vendor/fonts.scss';
+@import "./components/header/header.scss";
+
+.body {
+  font-family: "Ubuntu";
+  font-weight: 400;
+}
