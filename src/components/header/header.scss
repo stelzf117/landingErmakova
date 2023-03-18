@@ -1,3 +1,5 @@
+@import "../../vendor/vars.scss";
+
 .header {
   display: flex;
   width: 100%;
@@ -11,6 +13,8 @@
   top: 0;
   left: 0;
   right: 0;
+  opacity: .95;
+  box-shadow: 0 3px 5px rgba($color: #000000, $alpha: 0.06);
   &__logo-wrapper {
     display: flex;
     align-items: center;
@@ -90,7 +94,7 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: $laptop-1440) {
   .header {
     height: 80px;
     column-gap: 10px;
@@ -109,7 +113,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: $laptop-1200) {
   .header {
     font-size: 24px;
     &__logo {
@@ -125,7 +129,7 @@
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: $tablet-992) {
   .header {
     height: 60px;
     column-gap: 7px;
@@ -143,9 +147,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $tablet-768) {
   .header {
-    column-gap: 4px;
+    column-gap: 0px;
     &__menu-wrapper {
       flex-grow: 0;
       min-width: 60px;
@@ -234,7 +238,7 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: $mobile-576) {
   .header {
     &__menu {
       max-width: 60vw;
