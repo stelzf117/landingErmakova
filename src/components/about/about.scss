@@ -1,6 +1,7 @@
 @import "../../vendor/vars.scss";
 
 .about {
+  max-width: $max-width-wrapper;
   box-sizing: border-box;
   font-weight: 300;
   color: $dark-blue-color;
