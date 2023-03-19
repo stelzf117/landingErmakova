@@ -1,0 +1,20 @@
+@import "../../vendor/vars.scss";
+
+.line {
+  width: 100%;
+  background-color: $red-color;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  &__text {
+    margin: 30px 0;
+    text-transform: uppercase;
+  }
+  &_one {
+    margin-top: 317px;
+  }
+  &_two {
+    margin-top: 312px;
+  }
+}

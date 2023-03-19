@@ -1,3 +1,9 @@
+//- mixins
+include ../line/line
+
+//- markup
 main.main
   include ../about/about
   include ../anastasia/anastasia
+  +line("какой результат получили мои клиенты", "line_one")
+  +line("отзывы", "line_two")
