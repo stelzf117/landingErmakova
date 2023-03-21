@@ -1,4 +1,5 @@
 const path = require("path");
+const fs = require("fs");
 const FileManagerPlugin = require("filemanager-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -14,6 +15,7 @@ module.exports = {
   resolve: {
     alias: {
       normalize: path.resolve(__dirname, "./node_modules/normalize.css"),
+      "@images": path.resolve(__dirname, "./src/images"),
     },
   },
   module: {

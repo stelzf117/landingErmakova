@@ -1,0 +1,8 @@
+mixin cases(title)
+  section.cases
+    .cases__wrapper
+      h2.cases__title #{ title }
+      .cases__inner
+        each i in Array(10)
+          .cases__item
+            img.cases__img(src=require(`@images/formStyle/4873278.jpg`))
