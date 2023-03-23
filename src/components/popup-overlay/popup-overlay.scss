@@ -1,0 +1,9 @@
+.popup-overlay {
+  position: fixed;
+  width: 110%;
+  height: 100%;
+  opacity: .8;
+  background: $background-popup-overlay;
+  cursor: pointer;
+  z-index: 1;
+}
